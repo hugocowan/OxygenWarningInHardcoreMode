@@ -1,0 +1,11 @@
+{
+  "Id": "OxygenWarningInHardcoreMode",
+  "DisplayName": "Oxygen Warning in Hardcore Mode",
+  "Author": "boogaliwoogali",
+  "Version": "1",
+  "Requires": [],
+  "Enable": true,
+  "Game": "Both",
+  "AssemblyName": "OxygenWarningInHardcoreMode.dll",
+  "Config": {}
+}
