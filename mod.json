@@ -2,10 +2,11 @@
   "Id": "OxygenWarningInHardcoreMode",
   "DisplayName": "Oxygen Warning in Hardcore Mode",
   "Author": "boogaliwoogali",
-  "Version": "1",
+  "Version": "1.0",
   "Requires": [],
   "Enable": true,
   "Game": "Both",
   "AssemblyName": "OxygenWarningInHardcoreMode.dll",
+  "NexusId": { "Subnautica": "788", "BelowZero": "218" },
   "Config": {}
 }
