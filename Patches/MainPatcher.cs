@@ -1,16 +1,12 @@
-﻿using HarmonyLib;
-using QModManager.API.ModLoading;
+﻿using BepInEx;
+using HarmonyLib;
 
-namespace OxygenWarningInHardcoreMode
+[BepInPlugin("OxygenWarningInHardcoreMode", "OxygenWarningInHardcoreMode", "1.1")]
+public class MyPlugin : BaseUnityPlugin
 {
-    [QModCore]
-    public class MainPatcher
+    private void Start()
     {
-        [QModPatch]
-        public static void Patch()
-        {
-            Harmony harmony = new Harmony("com.boogaliwoogali.subnautica.OxygenWarningInHardcoreMode");
-            harmony.PatchAll();
-        }
+        var harmony = new Harmony("OxygenWarningInHardcoreMode");
+        harmony.PatchAll();
     }
 }
